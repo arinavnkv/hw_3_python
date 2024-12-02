@@ -7,10 +7,10 @@ def distance(x1, y1, x2, y2):
     dx = x2 - x1
     dy = y2 - y1
 
-    dx_squared = dx**2
-    dy_squared = dy**2
+    dx_square = dx**2
+    dy_square = dy**2
 
-    sum_of_squares = dx_squared + dy_squared
+    sum_of_squares = dx_square + dy_square
 
     distance = sum_of_squares**0.5
 
